@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
             "utilize (.)";
       });
     }else{
-      if((precoAlcool/precoGasolina >= 0.7)){
+      if((precoAlcool/precoGasolina) >= 0.7){
         setState(() {
           _textoResultado = "Melhor abastecer com gasolina!";
         });
